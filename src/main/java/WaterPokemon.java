@@ -102,7 +102,7 @@ public class WaterPokemon extends Pokemon {
         } else {
             System.out.println("The attack missed!");
         }
-        if (opponent.getHitPoints() > 0 && opponent.pokeType != PokemonType.ELECTRIC && specialtyProbability > Math.random()) {
+        if (opponent.getHitPoints() > 0 && opponent.pokeType != PokemonType.WATER && specialtyProbability > Math.random()) {
             System.out.println(this.getName() + " executed a specialty attack... " + specialtyAttack+ "!!!");
             opponent.setHitPoints(0);
         }

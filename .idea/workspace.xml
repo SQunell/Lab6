@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb5619b8-b773-4a6d-a797-558296dc43ff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Colosseum.java" afterPath="$PROJECT_DIR$/src/main/java/Colosseum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ElectricPokemon.java" afterPath="$PROJECT_DIR$/src/main/java/ElectricPokemon.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FirePokemon.java" afterPath="$PROJECT_DIR$/src/main/java/FirePokemon.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WaterPokemon.java" afterPath="$PROJECT_DIR$/src/main/java/WaterPokemon.java" />
     </list>
@@ -48,7 +46,7 @@
       <file leaf-file-name="ElectricPokemon.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ElectricPokemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="307">
               <caret line="101" column="127" lean-forward="false" selection-start-line="101" selection-start-column="127" selection-end-line="101" selection-end-column="127" />
               <folding />
             </state>
@@ -58,8 +56,8 @@
       <file leaf-file-name="FirePokemon.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FirePokemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
+            <state relative-caret-position="195">
+              <caret line="101" column="80" lean-forward="false" selection-start-line="101" selection-start-column="80" selection-end-line="101" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -78,8 +76,8 @@
       <file leaf-file-name="WaterPokemon.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WaterPokemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="105" column="50" lean-forward="false" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
+            <state relative-caret-position="132">
+              <caret line="104" column="81" lean-forward="false" selection-start-line="104" selection-start-column="81" selection-end-line="104" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -412,10 +410,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/FirePokemon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WaterPokemon.java" />
         <option value="$PROJECT_DIR$/src/main/java/Colosseum.java" />
         <option value="$PROJECT_DIR$/src/main/java/ElectricPokemon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FirePokemon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WaterPokemon.java" />
       </list>
     </option>
   </component>
@@ -622,6 +620,14 @@
       <option name="presentableId" value="Default" />
       <updated>1519670390311</updated>
     </task>
+    <task id="LOCAL-00001" summary="born to be a champion!">
+      <created>1519746992515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519746992515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -660,6 +666,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="born to be a champion!" />
+    <option name="LAST_COMMIT_MESSAGE" value="born to be a champion!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -770,22 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FirePokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WaterPokemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="105" column="50" lean-forward="false" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3052">
@@ -802,9 +796,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FirePokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="101" column="80" lean-forward="false" selection-start-line="101" selection-start-column="80" selection-end-line="101" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WaterPokemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="104" column="81" lean-forward="false" selection-start-line="104" selection-start-column="81" selection-end-line="104" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ElectricPokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="307">
           <caret line="101" column="127" lean-forward="false" selection-start-line="101" selection-start-column="127" selection-end-line="101" selection-end-column="127" />
           <folding />
         </state>
