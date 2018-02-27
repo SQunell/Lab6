@@ -166,9 +166,11 @@ public class Pokemon {
      * This is a good function to look through to see objects in action!
      *
      * @param opponent the Pokemon to attack
+     * @param specAttack name
+     * @param specProb probability of spec attack
      * @return whether or not the game has ended
      */
-    public boolean attack(final Pokemon opponent) {
+    public boolean attack(final Pokemon opponent, final String specAttack, final double specProb) {
         /*
          * Get the attack and defense bonuses.
          */
@@ -211,6 +213,10 @@ public class Pokemon {
             opponent.hitPoints = opponent.hitPoints - totalDamage;
         } else {
             System.out.println("The attack missed!");
+        }
+        if (opponent.getHitPoints() > 0 && opponent.pokeType != this.pokeType && specProb > Math.random()) {
+            System.out.println(this.getName() + " executed a specialty attack... " + specAttack+ "!!!");
+            opponent.setHitPoints(0);
         }
         System.out.println(" ");
         return (opponent.hitPoints < 1);

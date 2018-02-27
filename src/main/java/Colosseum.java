@@ -30,7 +30,7 @@ public class Colosseum {
     /**
      * The second Pokemon we will be fighting.
      */
-    static Pokemon secondPokemon;
+    static Pokemon secondPokemon = buildPokemon();
 
     /**
      * Input scanner. Use this to take in user's input for buildPokemon(). <br>
@@ -271,7 +271,7 @@ public class Colosseum {
             System.out.println("Round " + (i + 1) + "!");
             System.out.println("");
 
-            ifWinner = firstPokemon.attack(secondPokemon);
+            ifWinner = firstPokemon.attack(secondPokemon, firstPokemon.specialtyAttack);
             if (!ifWinner) {
                 ifWinner = secondPokemon.attack(firstPokemon);
                 if (!ifWinner) {
